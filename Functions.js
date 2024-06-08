@@ -59,3 +59,14 @@ function findDuplicates(arr) {
     return duplicates;
 }
 console.log(findDuplicates([1, 2, 3, 4, 2, 5, 3, 6])); 
+let obj={
+    name:"Pratham",
+    std:"12",
+    marks:80
+}
+for(m in obj){
+    console.log(m)
+}
+for(x in obj){
+    console.log(obj[x]);
+}
